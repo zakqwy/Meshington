@@ -1,0 +1,258 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_SAMD:ATSAMD51J20A-M U?
+U 1 1 5D24990A
+P 2800 3200
+F 0 "U?" H 2800 5281 50  0000 C CNN
+F 1 "ATSAMD51J20A-M" H 2800 5190 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm" H 950 1400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf" H 2800 4200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D24E7AB
+P 5700 1500
+F 0 "SW?" H 5700 1785 50  0000 C CNN
+F 1 "SW_Push" H 5700 1694 50  0000 C CNN
+F 2 "" H 5700 1700 50  0001 C CNN
+F 3 "~" H 5700 1700 50  0001 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D24FF98
+P 6700 1500
+F 0 "SW?" H 6700 1785 50  0000 C CNN
+F 1 "SW_Push" H 6700 1694 50  0000 C CNN
+F 2 "" H 6700 1700 50  0001 C CNN
+F 3 "~" H 6700 1700 50  0001 C CNN
+	1    6700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D250CC3
+P 6200 1500
+F 0 "SW?" H 6200 1785 50  0000 C CNN
+F 1 "SW_Push" H 6200 1694 50  0000 C CNN
+F 2 "" H 6200 1700 50  0001 C CNN
+F 3 "~" H 6200 1700 50  0001 C CNN
+	1    6200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D254CCC
+P 5700 2000
+F 0 "SW?" H 5700 2285 50  0000 C CNN
+F 1 "SW_Push" H 5700 2194 50  0000 C CNN
+F 2 "" H 5700 2200 50  0001 C CNN
+F 3 "~" H 5700 2200 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D254CD6
+P 6700 2000
+F 0 "SW?" H 6700 2285 50  0000 C CNN
+F 1 "SW_Push" H 6700 2194 50  0000 C CNN
+F 2 "" H 6700 2200 50  0001 C CNN
+F 3 "~" H 6700 2200 50  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D254CE0
+P 6200 2000
+F 0 "SW?" H 6200 2285 50  0000 C CNN
+F 1 "SW_Push" H 6200 2194 50  0000 C CNN
+F 2 "" H 6200 2200 50  0001 C CNN
+F 3 "~" H 6200 2200 50  0001 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25814C
+P 5700 2500
+F 0 "SW?" H 5700 2785 50  0000 C CNN
+F 1 "SW_Push" H 5700 2694 50  0000 C CNN
+F 2 "" H 5700 2700 50  0001 C CNN
+F 3 "~" H 5700 2700 50  0001 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D258156
+P 6700 2500
+F 0 "SW?" H 6700 2785 50  0000 C CNN
+F 1 "SW_Push" H 6700 2694 50  0000 C CNN
+F 2 "" H 6700 2700 50  0001 C CNN
+F 3 "~" H 6700 2700 50  0001 C CNN
+	1    6700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D258160
+P 6200 2500
+F 0 "SW?" H 6200 2785 50  0000 C CNN
+F 1 "SW_Push" H 6200 2694 50  0000 C CNN
+F 2 "" H 6200 2700 50  0001 C CNN
+F 3 "~" H 6200 2700 50  0001 C CNN
+	1    6200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25816A
+P 5700 3000
+F 0 "SW?" H 5700 3285 50  0000 C CNN
+F 1 "SW_Push" H 5700 3194 50  0000 C CNN
+F 2 "" H 5700 3200 50  0001 C CNN
+F 3 "~" H 5700 3200 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D258174
+P 6700 3000
+F 0 "SW?" H 6700 3285 50  0000 C CNN
+F 1 "SW_Push" H 6700 3194 50  0000 C CNN
+F 2 "" H 6700 3200 50  0001 C CNN
+F 3 "~" H 6700 3200 50  0001 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25817E
+P 6200 3000
+F 0 "SW?" H 6200 3285 50  0000 C CNN
+F 1 "SW_Push" H 6200 3194 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "~" H 6200 3200 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25DF10
+P 5700 3500
+F 0 "SW?" H 5700 3785 50  0000 C CNN
+F 1 "SW_Push" H 5700 3694 50  0000 C CNN
+F 2 "" H 5700 3700 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25DF1A
+P 6700 3500
+F 0 "SW?" H 6700 3785 50  0000 C CNN
+F 1 "SW_Push" H 6700 3694 50  0000 C CNN
+F 2 "" H 6700 3700 50  0001 C CNN
+F 3 "~" H 6700 3700 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D25DF24
+P 6200 3500
+F 0 "SW?" H 6200 3785 50  0000 C CNN
+F 1 "SW_Push" H 6200 3694 50  0000 C CNN
+F 2 "" H 6200 3700 50  0001 C CNN
+F 3 "~" H 6200 3700 50  0001 C CNN
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Graphic:OLED_128x32_SSD1306 DS?
+U 1 1 5D268174
+P 10400 2200
+F 0 "DS?" H 10450 3181 50  0000 C CNN
+F 1 "OLED_128x32_SSD1306" H 10450 3090 50  0000 C CNN
+F 2 "Display:AG12864E" H 9950 1250 50  0001 C CIN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php" H 10600 2000 50  0001 C CNN
+	1    10400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Graphic:OLED_128x64_SSD1306 DS?
+U 1 1 5D26A04A
+P 8500 2200
+F 0 "DS?" H 8550 3181 50  0000 C CNN
+F 1 "OLED_128x64_SSD1306" H 8550 3090 50  0000 C CNN
+F 2 "Display:AG12864E" H 8050 1250 50  0001 C CIN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php" H 8700 2000 50  0001 C CNN
+	1    8500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:RFM95W-915S2 U?
+U 1 1 5D26C592
+P 6400 4900
+F 0 "U?" H 6400 5581 50  0000 C CNN
+F 1 "RFM95W-915S2" H 6400 5490 50  0000 C CNN
+F 2 "" H 3100 6550 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 3100 6550 50  0001 C CNN
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5D26EBB8
+P 8000 4700
+F 0 "BT?" H 8118 4796 50  0000 L CNN
+F 1 "Battery_Cell" H 8118 4705 50  0000 L CNN
+F 2 "" V 8000 4760 50  0001 C CNN
+F 3 "~" V 8000 4760 50  0001 C CNN
+	1    8000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LDK130-33_SOT23_SOT353 U?
+U 1 1 5D270800
+P 9200 4650
+F 0 "U?" H 9200 4992 50  0000 C CNN
+F 1 "LDK130-33_SOT23_SOT353" H 9200 4901 50  0000 C CNN
+F 2 "" H 9200 4975 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf" H 9200 4650 50  0001 C CNN
+	1    9200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:MCP73832-2-OT U?
+U 1 1 5D277521
+P 9300 5700
+F 0 "U?" H 9300 6181 50  0000 C CNN
+F 1 "MCP73832-2-OT" H 9300 6090 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 5450 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 9150 5650 50  0001 C CNN
+	1    9300 5700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
