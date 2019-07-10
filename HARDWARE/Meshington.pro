@@ -1,4 +1,4 @@
-update=Tue 09 Jul 2019 10:51:07 PM CDT
+update=Tue 09 Jul 2019 11:04:40 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=schematic.svg
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
