@@ -602,21 +602,21 @@ Wire Wire Line
 Connection ~ 7850 6350
 Connection ~ 8300 6350
 Text Label 6750 1500 2    50   ~ 0
-KEYBOARD_A0
+KEYPAD_A0
 Text Label 6750 2500 2    50   ~ 0
-KEYBOARD_A1
+KEYPAD_A1
 Text Label 6750 3500 2    50   ~ 0
-KEYBOARD_A2
+KEYPAD_A2
 Text Label 6750 4500 2    50   ~ 0
-KEYBOARD_A3
+KEYPAD_A3
 Text Label 6750 5500 2    50   ~ 0
-KEYBOARD_A4
+KEYPAD_A4
 Text Label 7400 7350 3    50   ~ 0
-KEYBOARD_C0
+KEYPAD_C0
 Text Label 7850 7350 3    50   ~ 0
-KEYBOARD_C1
+KEYPAD_C1
 Text Label 8300 7350 3    50   ~ 0
-KEYBOARD_C2
+KEYPAD_C2
 $Comp
 L Device:Antenna AE?
 U 1 1 5D399588
@@ -2524,4 +2524,168 @@ Wire Wire Line
 	2750 4300 2950 4300
 Wire Wire Line
 	2950 4200 2750 4200
+Text Label 5150 2800 0    50   ~ 0
+KEYPAD_A0
+Text Label 5150 2900 0    50   ~ 0
+KEYPAD_A1
+Text Label 5150 3000 0    50   ~ 0
+KEYPAD_A2
+Text Label 5150 3100 0    50   ~ 0
+KEYPAD_A3
+Text Label 2750 2600 2    50   ~ 0
+KEYPAD_A4
+Wire Wire Line
+	5150 2800 4950 2800
+Wire Wire Line
+	4950 2900 5150 2900
+Wire Wire Line
+	5150 3000 4950 3000
+Wire Wire Line
+	4950 3100 5150 3100
+Wire Wire Line
+	2750 2600 2950 2600
+Text Label 2750 2700 2    50   ~ 0
+KEYPAD_C0
+Text Label 2750 2800 2    50   ~ 0
+KEYPAD_C1
+Text Label 2750 2900 2    50   ~ 0
+KEYPAD_C2
+Wire Wire Line
+	2750 2700 2950 2700
+Wire Wire Line
+	2950 2800 2750 2800
+Wire Wire Line
+	2750 2900 2950 2900
+$Comp
+L Device:R R?
+U 1 1 5EC93785
+P 5300 3300
+F 0 "R?" V 5250 3450 50  0000 C CNN
+F 1 "470k" V 5300 3300 50  0000 C CNN
+F 2 "" V 5230 3300 50  0001 C CNN
+F 3 "~" H 5300 3300 50  0001 C CNN
+	1    5300 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3200 5550 3200
+Wire Wire Line
+	5550 3200 5550 3300
+Wire Wire Line
+	5550 3300 5450 3300
+Wire Wire Line
+	5150 3300 4950 3300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ED0D702
+P 5650 3200
+F 0 "TP?" V 5604 3388 50  0000 L CNN
+F 1 "CapSlide" V 5695 3388 50  0000 L CNN
+F 2 "" H 5850 3200 50  0001 C CNN
+F 3 "~" H 5850 3200 50  0001 C CNN
+	1    5650 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3200 5550 3200
+Connection ~ 5550 3200
+$Comp
+L Device:R R?
+U 1 1 5ED562D3
+P 5300 3500
+F 0 "R?" V 5250 3650 50  0000 C CNN
+F 1 "470k" V 5300 3500 50  0000 C CNN
+F 2 "" V 5230 3500 50  0001 C CNN
+F 3 "~" H 5300 3500 50  0001 C CNN
+	1    5300 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3400 5550 3400
+Wire Wire Line
+	5550 3400 5550 3500
+Wire Wire Line
+	5550 3500 5450 3500
+Wire Wire Line
+	5150 3500 4950 3500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ED562E1
+P 5650 3400
+F 0 "TP?" V 5604 3588 50  0000 L CNN
+F 1 "CapSlide" V 5695 3588 50  0000 L CNN
+F 2 "" H 5850 3400 50  0001 C CNN
+F 3 "~" H 5850 3400 50  0001 C CNN
+	1    5650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3400 5550 3400
+Connection ~ 5550 3400
+$Comp
+L Device:R R?
+U 1 1 5ED9994B
+P 5300 3700
+F 0 "R?" V 5250 3850 50  0000 C CNN
+F 1 "470k" V 5300 3700 50  0000 C CNN
+F 2 "" V 5230 3700 50  0001 C CNN
+F 3 "~" H 5300 3700 50  0001 C CNN
+	1    5300 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3700
+Wire Wire Line
+	5550 3700 5450 3700
+Wire Wire Line
+	5150 3700 4950 3700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ED99959
+P 5650 3600
+F 0 "TP?" V 5604 3788 50  0000 L CNN
+F 1 "CapSlide" V 5695 3788 50  0000 L CNN
+F 2 "" H 5850 3600 50  0001 C CNN
+F 3 "~" H 5850 3600 50  0001 C CNN
+	1    5650 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3600 5550 3600
+Connection ~ 5550 3600
+$Comp
+L Device:R R?
+U 1 1 5EDDC904
+P 5300 3900
+F 0 "R?" V 5250 4050 50  0000 C CNN
+F 1 "470k" V 5300 3900 50  0000 C CNN
+F 2 "" V 5230 3900 50  0001 C CNN
+F 3 "~" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3800 5550 3800
+Wire Wire Line
+	5550 3800 5550 3900
+Wire Wire Line
+	5550 3900 5450 3900
+Wire Wire Line
+	5150 3900 4950 3900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EDDC912
+P 5650 3800
+F 0 "TP?" V 5604 3988 50  0000 L CNN
+F 1 "CapSlide" V 5695 3988 50  0000 L CNN
+F 2 "" H 5850 3800 50  0001 C CNN
+F 3 "~" H 5850 3800 50  0001 C CNN
+	1    5650 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3800 5550 3800
+Connection ~ 5550 3800
 $EndSCHEMATC

@@ -5,10 +5,10 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Meshington"
+Date "2019-07-09"
+Rev "0.1"
+Comp "License: CC-BY-SA 4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
