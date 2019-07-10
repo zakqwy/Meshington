@@ -5,6 +5,8 @@ A tiny open hardware km-range mesh-networked predictive text communicator. Uses 
 
 Meshington draws on many open source hardware projects, including the Adafruit Grand Central M4 Express and OLED breakout boards. The project also makes extensive use of open source software, such as KiCad, Inkscape, and a variety of ubiquitous Linux tools.
 
+More documentation here: https://hackaday.io/project/166482-meshington
+
 ## Status
 Not tested, still in design.
 
