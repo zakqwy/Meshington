@@ -1,7 +1,16 @@
 ## Meshington
-![Meshington image](/HARDWARE/Meshington.png)
+![Meshington sketch](/img/sketch.jpg)
 
-A tiny km-range mesh-networked T9ish communicator. Uses a pair of OLED displays to show the currently editing message and a common chatroom.
+A tiny open hardware km-range mesh-networked predictive text communicator. Uses a pair of OLED displays to show the currently editing message and a common chatroom.
+
+Meshington draws on many open source hardware projects, including the Adafruit Grand Central M4 Express and OLED breakout boards. The project also makes extensive use of open source software, such as KiCad, Inkscape, and a variety of ubiquitous Linux tools.
+
+## Status
+Not tested, still in design.
+
+## License
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
 ## Parts
 - MCU: Microchip SAMD51
   - P/N ATSAMD51J20A-MUT
@@ -28,7 +37,4 @@ A tiny km-range mesh-networked T9ish communicator. Uses a pair of OLED displays 
 - Mech
   - 3-PCB stack with button & display cutouts
   - Use four M3 screws / acorn nuts at corners
-- Misc
-  - Ref Adafruit Feather and Metro M4 Express
-  - Incl. chg mgt, LDO, SWD connector, etc
-  - UF2 bootloader + Circuit Python
+  - Touch sliders for scrolling
